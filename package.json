@@ -1,0 +1,17 @@
+{
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "node-pushnotifications": "^3.0.0"
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "name": "knock-browser-push-demo",
+  "description": "This repo contains the example code from a blog post on the Knock blog about [sending browser push notifications in Node.js](https://knock.app/blog/how-to-send-browser-push-notifications-from-nodejs). You can find additonal details in that post.",
+  "version": "1.0.0",
+  "main": "main.js",
+  "author": "",
+  "license": "ISC"
+}
