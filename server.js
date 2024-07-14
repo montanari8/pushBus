@@ -96,16 +96,18 @@ setInterval(sendNotification, 10000);
 var latFixo = -23.593798331228253;
 var lonFixo = -48.01770304206565;
 
+var index = 0;
+
 
 function moveBus() {
   if (index < coordenadas.length - 1) {
+    
     const [lat2, lon2] = coordenadas[index + 1];
 
     //atualizar a mensagem de distância
     updateDistance(lat2, lon2);
 
     index++;
-    setTimeout(moveBus, duration);
   }
 }
 

@@ -1,5 +1,5 @@
-// Rota teste
-export const coordenadas = [
+// rota.js
+ const coordenadas = [
     [-23.58145, -48.03186],
     [-23.58184, -48.03173],
     [-23.58181, -48.03152],
@@ -1042,3 +1042,4 @@ export const coordenadas = [
     [-23.59736, -48.0288]
 ];
 
+module.exports = { coordenadas };
